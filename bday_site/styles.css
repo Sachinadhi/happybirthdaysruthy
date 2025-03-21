@@ -1,0 +1,49 @@
+body {
+    background-color: #ffe6f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff4d88;
+    font-size: 40px;
+}
+
+p {
+    color: #333;
+}
+
+#gallery {
+    margin: 20px 0;
+}
+
+#gallery img {
+    width: 200px;
+    margin: 10px;
+    border: 2px solid #ff4d88;
+}
+
+#game {
+    margin-top: 20px;
+}
+
+#gameArea {
+    width: 500px;
+    height: 400px;
+    border: 2px solid #ff4d88;
+    position: relative;
+    margin: 20px auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.heart {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    clip-path: polygon(50% 0%, 100% 30%, 80% 100%, 20% 100%, 0% 30%);
+    cursor: pointer;
+}
